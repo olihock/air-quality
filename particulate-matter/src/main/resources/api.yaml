@@ -8,6 +8,7 @@ servers:
 paths:
   /p10/{timestamp}:
     get:
+      operationId: p10
       parameters:
         - in: path
           name: timestamp
